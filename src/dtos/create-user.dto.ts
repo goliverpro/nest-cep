@@ -4,6 +4,8 @@ export class CreateUserDto {
     
     telefone: string
 
+    cpf: string
+
     cep: string
 
     logradouro: string
