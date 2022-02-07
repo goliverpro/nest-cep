@@ -1,7 +1,6 @@
 import { HttpService } from '@nestjs/axios';
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { compare } from 'bcryptjs';
 import { delRedis, getRedis, setRedis } from '../redisConfig';
 import { Repository } from 'typeorm';
 import { CreateUserDto } from '../dtos/create-user.dto';
